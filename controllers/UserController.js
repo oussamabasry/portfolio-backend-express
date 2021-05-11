@@ -67,7 +67,7 @@ const login = async (req, res, next) => {
             email: user[0].email,
             userId: user[0]._id,
           },
-          process.env.TOKEN_SECRET/* ,
+          process.env.TOKEN_SECRET /* ,
           {
             expiresIn: "1h",
           } */
